@@ -389,8 +389,8 @@ namespace AssetStudio
                         reader.ReadUInt16();
                         break;
                     case 0x1E:
-                        m_Header.compressedBlocksInfoSize -= 0xF0;
-                        m_Header.uncompressedBlocksInfoSize -= 0xE6;
+                        m_Header.compressedBlocksInfoSize -= 0x96;
+                        m_Header.uncompressedBlocksInfoSize -= 0x82;
                         m_Header.flags -= 0x03;
                         reader.ReadUInt16();
                         break;
